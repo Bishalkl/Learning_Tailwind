@@ -1,9 +1,11 @@
 const App = () => {
   return (
-    <div className="flex Parent gap-2">
+    <div className="flex flex-col Parent gap-2">
       <div>Header</div>
-      <div>Main content</div>
-      <div>sidebar</div>
+      <div className=" flex subparent gap-1">
+        <div>Main content</div>
+        <div>sidebar</div>
+      </div>
     </div>
   );
 };
